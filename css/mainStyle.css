@@ -13,7 +13,7 @@ a:hover {
 }
 
 body {
-    background: #ccccff repeat-x url(/mga2011/images/bgTile.jpg);    
+    background: #ffffff;
     font: 14px Tahoma, Arial, Helvetica, sans-serif;
 }
 
@@ -42,7 +42,7 @@ h1, h2, h3 {
 .swirls {
     width: 1153px;
     height: 1550px;
-    background: #ccccff no-repeat url(/mga2011/images/swirls.jpg);
+   /* background: transparent no-repeat url(../images/swirls.jpg);*/
     position: relative;
     top: 0px;
     left: -77px;
@@ -51,7 +51,7 @@ h1, h2, h3 {
 .headerBar {
     width: 1000px;
     height: 51px;
-    background: transparent no-repeat url(/mga2011/images/headerBar.png) 12px 0px;
+    background: transparent no-repeat url(../images/headerBar.png) 12px 0px;
     position: absolute;
     top: 85px;
     left: 0px;
@@ -96,7 +96,7 @@ h1, h2, h3 {
 .logo {
     width: 709px;
     height: 71px;
-    background: transparent no-repeat url(/mga2011/images/logo.png);
+    background: transparent no-repeat url(../images/logo.png);
     position: absolute;
     top: 12px;
     left: 15px;
@@ -160,7 +160,7 @@ h1, h2, h3 {
     line-height: 22px;
     position: relative;
     top: -10px;
-    background: transparent no-repeat url(/mga2011/images/columnHeaderBar.png) 1px 0px;
+    background: transparent no-repeat url(../images/columnHeaderBar.png) 1px 0px;
     padding-left: 10px;
 }
 
