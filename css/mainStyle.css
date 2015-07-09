@@ -1,0 +1,249 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    border: 0px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background: #ccccff repeat-x url(/mga2011/images/bgTile.jpg);    
+    font: 14px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;  
+    font-weight: normal;
+}
+
+.main {
+    width: 1000px;
+    position: relative;
+    margin: 0px auto 50px auto;
+    clear: both;
+    display: block;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 85px;
+    text-align: center;
+    border: dashed 3px red;
+    display: none;
+}
+
+.swirls {
+    width: 1153px;
+    height: 1550px;
+    background: #ccccff no-repeat url(/mga2011/images/swirls.jpg);
+    position: relative;
+    top: 0px;
+    left: -77px;
+}
+
+.headerBar {
+    width: 1000px;
+    height: 51px;
+    background: transparent no-repeat url(/mga2011/images/headerBar.png) 12px 0px;
+    position: absolute;
+    top: 85px;
+    left: 0px;
+}
+
+.content {
+    position: absolute;
+    top: 0px;
+    clear: both;
+}
+
+.header {
+    width: 1000px;
+    height: 85px;
+    position: relative;
+}
+
+.searchBar {
+    text-align: right;
+    width: 300px;
+    position: absolute;
+    top: 3px;
+    right: 15px;
+}
+
+.breadcrumbs {
+    width: 950px;
+    height: 19px;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    line-height: 12px;
+}
+
+.body {
+    /* border: dashed 1px blue; */
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.logo {
+    width: 709px;
+    height: 71px;
+    background: transparent no-repeat url(/mga2011/images/logo.png);
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+.cart {
+    width: 223px;
+    height: 61px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #000;
+    position: absolute;
+    top: -5px;
+    right: 21px;
+}
+
+.satisfaction{
+    width: 223px;
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    right: 21px;
+    text-align: center;
+}
+
+.rightColumn, .leftColumn {
+    position: absolute;
+    width: 165px;
+    height: 500px;
+    top: 140px;
+}
+
+.rightColumn {
+    left: 18px;
+}
+
+.leftColumn {
+    right: 18px;
+}
+
+.centerColumn {
+    position: absolute;
+    width: 605px;
+    height: 1000px;
+    top: 145px;
+    left: 197px;
+}
+
+.columnBox {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #333;
+    position: relative;
+    margin-top: 15px;
+}
+
+.columnHeader {
+    width: 100%;
+    height: 26px;
+    line-height: 22px;
+    position: relative;
+    top: -10px;
+    background: transparent no-repeat url(/mga2011/images/columnHeaderBar.png) 1px 0px;
+    padding-left: 10px;
+}
+
+.columnHeader h1 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.columnContent {
+    position: relative;
+    top: -10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.columnContent a {
+    text-decoration: none;
+}
+
+.menuHeader {
+    background-color: #628bc8;
+    color: #fff;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.menuHeader:hover {
+    background-color: #8db0e3;
+}
+
+.menuItems {
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menuItems a:hover {
+    text-decoration: underline;
+}
+.about {
+    text-align: center;
+}
+
+.productItem {
+    width: 190px;
+    height: 240px;
+    float: left;
+    clear: right;
+    position: relative;
+    margin: 5px;
+    text-align: center;
+}
+
+.productItem img {
+    width: 136px;
+    height: 150px;
+    border: 0px;
+    position: relative;
+    margin: 0px auto;
+    clear: both;
+    border: solid 2px white;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px #444;
+}
+.productItem img:hover {
+    box-shadow: 0px 3px 9px #222;
+}
+.priceSm {
+    color: black;
+}
+.priceSm:hover {
+    text-decoration: none;
+}
+.pagination {
+    width: 100%;
+    height: 25px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #555;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    clear: both;
+}
